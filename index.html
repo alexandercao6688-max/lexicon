@@ -5,7 +5,124 @@
 <meta name="theme-color" content="#163d36">
 <title>Lexicon — Academic vocabulary practice</title>
 <style>
-:root{--ink:#183b35;--muted:#65736c;--paper:#f6f5ef;--line:#dce2d8;--green:#24594b;--light:#eaf0e4;--gold:#e2b85c;--red:#9b3634}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input{font:inherit}button{cursor:pointer}button:disabled{cursor:default}button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #aa761b;outline-offset:4px}header{border-bottom:1px solid var(--line);background:#fbfcf7}.bar{max-width:1160px;margin:auto;padding:24px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{border:0;background:none;display:flex;align-items:center;gap:12px;padding:0;color:var(--ink);font:700 25px Georgia,serif}.mark{display:grid;place-items:center;background:var(--ink);color:#fff;width:36px;height:38px;border-radius:9px;font-size:25px}.brand small{font:10px system-ui;letter-spacing:2px;display:block;text-align:left;color:var(--muted)}.offline{font-size:12px;color:var(--muted);display:flex;gap:8px;align-items:center}.dot{width:7px;height:7px;background:#628358;border-radius:50%}main{max-width:1160px;margin:auto;padding:48px 32px 32px}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:2px;font-weight:750;color:var(--green)}h1,h2,h3,p{margin:0}h1{font:normal clamp(38px,5vw,58px)/1.12 Georgia,serif;letter-spacing:-1.5px;margin:14px 0 18px}h2{font:normal 29px/1.2 Georgia,serif}h3{font:normal 25px/1.2 Georgia,serif}.intro{display:flex;justify-content:space-between;align-items:center;gap:32px;margin-bottom:34px}.intro p{color:var(--muted);max-width:510px}.note{border-left:2px solid var(--gold);padding:12px 0 12px 22px;max-width:250px;font:italic 20px/1.5 Georgia,serif}.note small{display:block;font:11px system-ui;color:var(--muted);margin-top:12px;letter-spacing:1px}.stats{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:38px}.stat{padding:23px 25px}.stat+.stat{border-left:1px solid var(--line)}.stat strong{display:block;font:normal 32px Georgia,serif}.stat span{font-size:12px;color:var(--muted)}.section-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px}.section-head small{color:var(--muted);font-size:12px}.modes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.mode{text-align:left;background:#fff;border:1px solid var(--line);border-radius:14px;padding:25px;display:flex;flex-direction:column;color:var(--ink);min-height:268px;transition:transform .18s,box-shadow .18s}.mode:hover{transform:translateY(-4px);box-shadow:0 10px 25px #183b3510}.mode.featured{background:var(--ink);color:#fff;border-color:var(--ink)}.mode .icon{border:1px solid #dce2d8;border-radius:10px;display:grid;place-items:center;width:44px;height:44px;font:22px Georgia;margin-bottom:23px}.featured .icon{border-color:#ffffff40;color:#edcf8e}.mode p{font-size:13px;color:var(--muted);margin:10px 0 24px;line-height:1.65}.featured p{color:#c1d2c8}.mode .start{margin-top:auto;font-size:12px;font-weight:650;display:flex;justify-content:space-between}.practice-info{display:grid;grid-template-columns:1.4fr 1fr;gap:30px;margin-top:35px}.panel{border:1px solid var(--line);border-radius:14px;padding:23px;background:#efF1e9}.panel h3{font:600 14px system-ui;margin-bottom:9px}.panel p{font-size:12px;color:var(--muted)}.boxes{display:flex;gap:9px;margin-top:18px}.box{flex:1;text-align:center;padding:10px 3px;background:#fff9;border-radius:7px}.box strong{display:block;font:23px Georgia}.box span{font-size:10px;color:var(--muted)}footer{max-width:1160px;margin:0 auto;padding:24px 32px;display:flex;justify-content:space-between;gap:16px;color:var(--muted);font-size:11px}footer button,.link{background:none;border:0;padding:0;color:var(--muted);text-decoration:underline;font-size:12px}.btn{border:1px solid var(--green);border-radius:9px;background:var(--green);color:white;padding:12px 22px;font-size:14px;font-weight:600;min-height:46px}.btn.secondary{background:transparent;color:var(--ink);border-color:var(--line)}.btn:disabled{opacity:.45}.game{max-width:800px;margin:auto}.game-top{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:24px}.game-meta{display:flex;gap:15px;font-size:12px;color:var(--muted)}.track{height:5px;background:var(--line);border-radius:9px;overflow:hidden;margin-bottom:30px}.track div{height:100%;background:var(--green);transition:width .3s}.question{background:#fff;border:1px solid var(--line);border-radius:18px;padding:34px}.question h1{font-size:46px;margin:14px 0 6px}.pos{color:var(--muted);font:italic 16px Georgia}.prompt{font-size:14px;color:var(--muted);margin:24px 0 16px}.options{display:grid;gap:10px}.option{display:flex;align-items:center;gap:14px;border:1px solid var(--line);border-radius:9px;background:#fff;padding:16px;text-align:left;color:var(--ink);min-height:58px}.option:not(:disabled):hover{background:var(--light);border-color:#9bb19b}.option .letter{font-size:11px;flex-shrink:0;border:1px solid var(--line);border-radius:5px;width:25px;height:25px;display:grid;place-items:center}.option.correct,.match-card.correct{background:#e6f0e3;border-color:#6d9567}.option.wrong,.match-card.wrong{background:#faeae5;border-color:#bc7165}.feedback{margin-top:20px;padding:20px;border-radius:10px;background:#edf3e8;border-left:3px solid #5c8254}.feedback.bad{background:#fbefea;border-color:#b86151}.feedback p{font-size:14px;margin-top:7px}.feedback .example{color:var(--muted);font-style:italic}.feedback small{display:block;color:var(--muted);margin-top:9px}.actions{margin-top:22px;display:flex;justify-content:flex-end;gap:10px}.sentence{font:normal 25px/1.7 Georgia,serif;margin:25px 0}.blank{color:var(--green);letter-spacing:3px;white-space:nowrap}input[type=text]{width:100%;border:1px solid #a4b3a7;border-radius:9px;background:#fcfdf9;padding:14px;color:var(--ink);font-size:18px}.hint{font-size:12px;color:var(--muted);margin-top:10px}.match-grid{display:grid;grid-template-columns:1fr 1.7fr;gap:16px;margin-top:22px}.match-col{display:grid;gap:10px}.match-card{border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);padding:14px;text-align:left;min-height:86px;font-size:13px}.match-card.word{font-family:Georgia;font-size:19px}.match-card.selected{outline:2px solid var(--green);background:var(--light)}.match-card:disabled{color:#46613e}.summary{text-align:center;padding:25px 0}.summary h1{font-size:44px}.summary .stats{text-align:left;margin:30px 0}.summary .actions{justify-content:center}.save-warning{background:#fff0d4;border-radius:9px;padding:12px;font-size:13px;margin-bottom:20px;color:#734c13}dialog{border:1px solid var(--line);border-radius:16px;padding:28px;max-width:420px;width:calc(100% - 40px);color:var(--ink);background:var(--paper)}dialog::backdrop{background:#15352b70}dialog p{margin-top:14px;color:var(--muted);font-size:14px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:750px){.bar{padding:18px 22px}main{padding:32px 22px 20px}.intro{margin-bottom:25px}.note{display:none}.modes{grid-template-columns:1fr}.mode{min-height:0;padding:23px}.mode .icon{margin-bottom:16px}.mode p{margin-bottom:18px}.practice-info{grid-template-columns:1fr;gap:16px}.stats{grid-template-columns:repeat(2,1fr)}.stat{padding:18px 20px}.stat:nth-child(3){border-left:0;border-top:1px solid var(--line)}.stat:nth-child(4){border-top:1px solid var(--line)}.question{padding:23px}.game-meta{gap:8px;font-size:11px}.match-grid{gap:9px;grid-template-columns:1fr 1.45fr}.match-card{padding:10px;min-height:110px;font-size:12px}.match-card.word{font-size:17px}.section-head{align-items:flex-start}.section-head small{max-width:125px;text-align:right}footer{padding:22px;flex-wrap:wrap}.offline{font-size:10px}.brand{font-size:23px}.brand small{font-size:8px}.sentence{font-size:23px}}@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+:root{--ink:#183b35;--muted:#65736c;--paper:#f6f5ef;--line:#dce2d8;--green:#24594b;--light:#eaf0e4;--gold:#e2b85c;--red:#9b3634}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+button,input,select{font:inherit}button{cursor:pointer}button:disabled{cursor:default}
+button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #aa761b;outline-offset:4px}
+header{border-bottom:1px solid var(--line);background:#fbfcf7}
+.bar{max-width:1160px;margin:auto;padding:24px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{border:0;background:none;display:flex;align-items:center;gap:12px;padding:0;color:var(--ink);font:700 25px Georgia,serif}
+.mark{display:grid;place-items:center;background:var(--ink);color:#fff;width:36px;height:38px;border-radius:9px;font-size:25px}
+.brand small{font:10px system-ui;letter-spacing:2px;display:block;text-align:left;color:var(--muted)}
+.offline{font-size:12px;color:var(--muted);display:flex;gap:8px;align-items:center}
+.dot{width:7px;height:7px;background:#628358;border-radius:50%}
+main{max-width:1160px;margin:auto;padding:48px 32px 32px}
+.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:2px;font-weight:750;color:var(--green)}
+h1,h2,h3,p{margin:0}h1{font:normal clamp(38px,5vw,58px)/1.12 Georgia,serif;letter-spacing:-1.5px;margin:14px 0 18px}
+h2{font:normal 29px/1.2 Georgia,serif}h3{font:normal 25px/1.2 Georgia,serif}
+.intro{display:flex;justify-content:space-between;align-items:center;gap:32px;margin-bottom:34px}
+.intro p{color:var(--muted);max-width:510px}
+.note{border-left:2px solid var(--gold);padding:12px 0 12px 22px;max-width:250px;font:italic 20px/1.5 Georgia,serif}
+.note small{display:block;font:11px system-ui;color:var(--muted);margin-top:12px;letter-spacing:1px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:38px}
+.stat{padding:23px 25px}.stat+.stat{border-left:1px solid var(--line)}
+.stat strong{display:block;font:normal 32px Georgia,serif}.stat span{font-size:12px;color:var(--muted)}
+.section-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px}
+.section-head small{color:var(--muted);font-size:12px}
+.modes{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.mode{text-align:left;background:#fff;border:1px solid var(--line);border-radius:14px;padding:25px;display:flex;flex-direction:column;color:var(--ink);min-height:240px;transition:transform .18s,box-shadow .18s}
+.mode:hover{transform:translateY(-4px);box-shadow:0 10px 25px #183b3510}
+.mode.featured{background:var(--ink);color:#fff;border-color:var(--ink)}
+.mode .icon{border:1px solid #dce2d8;border-radius:10px;display:grid;place-items:center;width:44px;height:44px;font:22px Georgia;margin-bottom:23px}
+.featured .icon{border-color:#ffffff40;color:#edcf8e}
+.mode p{font-size:13px;color:var(--muted);margin:10px 0 24px;line-height:1.65}
+.featured p{color:#c1d2c8}
+.mode .start{margin-top:auto;font-size:12px;font-weight:650;display:flex;justify-content:space-between}
+.practice-info{display:grid;grid-template-columns:1.4fr 1fr;gap:30px;margin-top:35px}
+.panel{border:1px solid var(--line);border-radius:14px;padding:23px;background:#efF1e9}
+.panel h3{font:600 14px system-ui;margin-bottom:9px}.panel p{font-size:12px;color:var(--muted)}
+.boxes{display:flex;gap:9px;margin-top:18px}
+.box{flex:1;text-align:center;padding:10px 3px;background:#fff9;border-radius:7px}
+.box strong{display:block;font:23px Georgia}.box span{font-size:10px;color:var(--muted)}
+footer{max-width:1160px;margin:0 auto;padding:24px 32px;display:flex;justify-content:space-between;gap:16px;color:var(--muted);font-size:11px}
+footer button,.link{background:none;border:0;padding:0;color:var(--muted);text-decoration:underline;font-size:12px}
+.btn{border:1px solid var(--green);border-radius:9px;background:var(--green);color:white;padding:12px 22px;font-size:14px;font-weight:600;min-height:46px}
+.btn.secondary{background:transparent;color:var(--ink);border-color:var(--line)}.btn:disabled{opacity:.45}
+.game{max-width:800px;margin:auto}
+.game-top{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:24px}
+.game-meta{display:flex;gap:15px;font-size:12px;color:var(--muted)}
+.track{height:5px;background:var(--line);border-radius:9px;overflow:hidden;margin-bottom:30px}
+.track div{height:100%;background:var(--green);transition:width .3s}
+.question{background:#fff;border:1px solid var(--line);border-radius:18px;padding:34px}
+.question h1{font-size:46px;margin:14px 0 6px}
+.word-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:14px 0 6px}
+.word-row h1{margin:0;font-size:46px}
+.pos{color:var(--muted);font:italic 16px Georgia}
+.prompt{font-size:14px;color:var(--muted);margin:24px 0 16px}
+.options{display:grid;gap:10px}
+.option{display:flex;align-items:center;gap:14px;border:1px solid var(--line);border-radius:9px;background:#fff;padding:16px;text-align:left;color:var(--ink);min-height:58px}
+.option:not(:disabled):hover{background:var(--light);border-color:#9bb19b}
+.option .letter{font-size:11px;flex-shrink:0;border:1px solid var(--line);border-radius:5px;width:25px;height:25px;display:grid;place-items:center}
+.option.correct,.match-card.correct{background:#e6f0e3;border-color:#6d9567}
+.option.wrong,.match-card.wrong{background:#faeae5;border-color:#bc7165}
+.feedback{margin-top:20px;padding:20px;border-radius:10px;background:#edf3e8;border-left:3px solid #5c8254}
+.feedback.bad{background:#fbefea;border-color:#b86151}
+.feedback p{font-size:14px;margin-top:7px}
+.feedback .example{color:var(--muted);font-style:italic;display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap}
+.feedback .example span{flex:1;min-width:180px}
+.feedback small{display:block;color:var(--muted);margin-top:9px}
+.actions{margin-top:22px;display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap}
+.sentence{font:normal 25px/1.7 Georgia,serif;margin:25px 0}
+.blank{color:var(--green);letter-spacing:3px;white-space:nowrap}
+input[type=text]{width:100%;border:1px solid #a4b3a7;border-radius:9px;background:#fcfdf9;padding:14px;color:var(--ink);font-size:18px}
+.hint{font-size:12px;color:var(--muted);margin-top:10px}
+.match-grid{display:grid;grid-template-columns:1fr 1.7fr;gap:16px;margin-top:22px}
+.match-col{display:grid;gap:10px}
+.match-card{border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);padding:14px;text-align:left;min-height:86px;font-size:13px}
+.match-card.word{font-family:Georgia;font-size:19px}
+.match-card.selected{outline:2px solid var(--green);background:var(--light)}
+.match-card:disabled{color:#46613e}
+.match-word-inner{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%}
+.summary{text-align:center;padding:25px 0}.summary h1{font-size:44px}.summary .stats{text-align:left;margin:30px 0}.summary .actions{justify-content:center}
+.save-warning{background:#fff0d4;border-radius:9px;padding:12px;font-size:13px;margin-bottom:20px;color:#734c13}
+dialog{border:1px solid var(--line);border-radius:16px;padding:28px;max-width:420px;width:calc(100% - 40px);color:var(--ink);background:var(--paper)}
+dialog::backdrop{background:#15352b70}dialog p{margin-top:14px;color:var(--muted);font-size:14px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.speak{flex-shrink:0;width:44px;height:44px;min-width:44px;min-height:44px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--green);display:inline-grid;place-items:center;padding:0;line-height:1}
+.speak:hover{background:var(--light);border-color:#9bb19b}
+.speak:active{transform:scale(.96)}
+.speak svg{width:20px;height:20px;display:block}
+.speak.playing{background:var(--light);border-color:var(--green)}
+.speak.hidden-speak,.no-speech .speak{display:none!important}
+.listen-card{display:flex;flex-direction:column;align-items:flex-start;gap:14px;margin:18px 0 8px}
+.listen-card .big-speak{width:72px;height:72px;min-width:72px;min-height:72px;border-radius:50%;border:1px solid var(--line);background:var(--ink);color:#edcf8e}
+.listen-card .big-speak svg{width:28px;height:28px}
+.listen-card .big-speak:hover{background:#1f4a42}
+.settings{margin-top:28px;border:1px solid var(--line);border-radius:14px;background:#fff;padding:22px 23px}
+.settings h3{font:600 14px system-ui;margin-bottom:6px}
+.settings > p{font-size:12px;color:var(--muted);margin-bottom:16px}
+.settings-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.field label{display:block;font-size:11px;font-weight:650;letter-spacing:.4px;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+.field select,.field .toggle-row{width:100%;border:1px solid var(--line);border-radius:9px;background:#fcfdf9;padding:12px 14px;color:var(--ink);min-height:46px}
+.toggle-row{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:14px}
+.toggle-row input{width:18px;height:18px;accent-color:var(--green)}
+.settings-note{font-size:11px;color:var(--muted);margin-top:12px}
+@media(max-width:750px){
+.bar{padding:18px 22px}main{padding:32px 22px 20px}.intro{margin-bottom:25px}.note{display:none}
+.modes{grid-template-columns:1fr}.mode{min-height:0;padding:23px}.mode .icon{margin-bottom:16px}.mode p{margin-bottom:18px}
+.practice-info{grid-template-columns:1fr;gap:16px}
+.stats{grid-template-columns:repeat(2,1fr)}.stat{padding:18px 20px}
+.stat:nth-child(3){border-left:0;border-top:1px solid var(--line)}.stat:nth-child(4){border-top:1px solid var(--line)}
+.question{padding:23px}.game-meta{gap:8px;font-size:11px}
+.match-grid{gap:9px;grid-template-columns:1fr 1.45fr}
+.match-card{padding:10px;min-height:110px;font-size:12px}.match-card.word{font-size:17px}
+.section-head{align-items:flex-start}.section-head small{max-width:125px;text-align:right}
+footer{padding:22px;flex-wrap:wrap}.offline{font-size:10px}.brand{font-size:23px}.brand small{font-size:8px}
+.sentence{font-size:23px}.word-row h1{font-size:36px}
+.settings-grid{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 <link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lexicon"></head>
 <body>
@@ -14,6 +131,7 @@
 <footer><span>Small sessions. Lasting knowledge. &nbsp;·&nbsp; Business &amp; academic English</span><button id="reset">Reset progress</button></footer>
 <dialog id="reset-dialog"><h2>A fresh start?</h2><p>This deletes your saved answers, score, streak, and Leitner boxes on this device.</p><div class="actions"><button class="btn secondary" id="cancel-reset">Keep progress</button><button class="btn" id="confirm-reset">Reset everything</button></div></dialog>
 <script>
+
 'use strict';
 const raw = [
 ['analyse','verb','Examine something systematically to understand it.','The research team will analyse the impact of remote work on productivity.'],
@@ -90,9 +208,122 @@ const raw = [
 ['valid','adjective','Well-founded and logically or factually sound.','The conclusion is valid only if the stated assumptions hold.']
 ];
 const words=raw.map(([word,pos,definition,example])=>({word,pos,definition,example}));
-const KEY='lexicon-leitner-v1', intervals=[0,86400000,259200000,604800000,1209600000];
+const KEY='lexicon-leitner-v1', SPEECH_KEY='lexicon-speech-v1', intervals=[0,86400000,259200000,604800000,1209600000];
 const app=document.getElementById('app');
 let storageOK=true, session=null, state=load();
+const speechOK=typeof window!=='undefined' && 'speechSynthesis' in window && typeof SpeechSynthesisUtterance!=='undefined';
+if(!speechOK) document.documentElement.classList.add('no-speech');
+
+const PREFERRED={
+  british:['Daniel','Serena','Kate','Arthur','Martha','Daniel (English (United Kingdom))','Serena (English (United Kingdom))'],
+  australian:['Karen','Catherine','Gordon','Karen (English (Australia))','Gordon (English (Australia))','Catherine (English (Australia))','Karen (English (New Zealand))'],
+  american:['Samantha','Ava','Zoe','Nathan','Alex','Samantha (English (United States))','Ava (English (United States))']
+};
+const ACCENT_LANG={british:['en-GB','en_GB'],australian:['en-AU','en_AU','en-NZ','en_NZ'],american:['en-US','en_US']};
+
+function defaultSpeech(){return {accent:'british',rate:0.9,autoPlay:false};}
+function loadSpeech(){
+  try{
+    const s=JSON.parse(localStorage.getItem(SPEECH_KEY)||'null');
+    const d=defaultSpeech();
+    if(!s||typeof s!=='object') return d;
+    const accent=['british','australian','american'].includes(s.accent)?s.accent:d.accent;
+    const rate=(s.rate===0.75||s.rate===0.9)?s.rate:d.rate;
+    return {accent,rate,autoPlay:!!s.autoPlay};
+  }catch(e){return defaultSpeech();}
+}
+let speechPrefs=loadSpeech();
+function saveSpeech(){try{localStorage.setItem(SPEECH_KEY,JSON.stringify(speechPrefs));}catch(e){}}
+
+let voiceCache=[], voicesReady=false;
+function refreshVoices(){
+  if(!speechOK) return [];
+  voiceCache=speechSynthesis.getVoices()||[];
+  if(voiceCache.length) voicesReady=true;
+  return voiceCache;
+}
+if(speechOK){
+  refreshVoices();
+  speechSynthesis.addEventListener('voiceschanged',()=>{refreshVoices(); updateAccentOptions();});
+}
+
+function englishVoices(){return refreshVoices().filter(v=>(v.lang||'').toLowerCase().startsWith('en'));}
+function voicesForAccent(accent){
+  const all=englishVoices();
+  const langs=ACCENT_LANG[accent]||[];
+  const byLang=all.filter(v=>langs.some(l=>(v.lang||'').replace('_','-').toLowerCase()===l.toLowerCase().replace('_','-')));
+  return byLang.length?byLang:all;
+}
+function pickVoice(){
+  const list=voicesForAccent(speechPrefs.accent);
+  if(!list.length) return null;
+  const names=PREFERRED[speechPrefs.accent]||[];
+  for(const name of names){
+    const hit=list.find(v=>v.name===name || v.name.toLowerCase().includes(name.toLowerCase().split(' (')[0].toLowerCase()));
+    if(hit) return hit;
+  }
+  // Prefer local / enhanced-sounding voices when marked
+  const local=list.find(v=>v.localService!==false);
+  return local||list[0];
+}
+function availableAccents(){
+  const all=englishVoices();
+  const out=[];
+  for(const [key,langs] of Object.entries(ACCENT_LANG)){
+    if(all.some(v=>langs.some(l=>(v.lang||'').replace('_','-').toLowerCase()===l.toLowerCase().replace('_','-')))) out.push(key);
+  }
+  return out.length?out:['british','australian','american'];
+}
+function updateAccentOptions(){
+  const sel=document.getElementById('accent-select');
+  if(!sel) return;
+  const avail=availableAccents();
+  const labels={british:'British',australian:'Australian / NZ',american:'American'};
+  const cur=speechPrefs.accent;
+  sel.innerHTML=avail.map(a=>`<option value="${a}" ${a===cur?'selected':''}>${labels[a]}</option>`).join('');
+  if(!avail.includes(speechPrefs.accent)){speechPrefs.accent=avail[0];saveSpeech();}
+}
+
+let speakingBtn=null;
+function stopSpeak(){
+  if(!speechOK) return;
+  try{speechSynthesis.cancel();}catch(e){}
+  if(speakingBtn){speakingBtn.classList.remove('playing');speakingBtn=null;}
+}
+function speak(text,btn){
+  if(!speechOK||!text) return;
+  stopSpeak();
+  const u=new SpeechSynthesisUtterance(String(text));
+  u.rate=speechPrefs.rate;
+  u.pitch=1;
+  const voice=pickVoice();
+  if(voice){u.voice=voice;u.lang=voice.lang;}
+  else u.lang=ACCENT_LANG[speechPrefs.accent][0]||'en-GB';
+  if(btn){speakingBtn=btn;btn.classList.add('playing');}
+  u.onend=u.onerror=()=>{if(btn)btn.classList.remove('playing');if(speakingBtn===btn)speakingBtn=null;};
+  // iOS: must be called synchronously from a user gesture when possible
+  speechSynthesis.speak(u);
+}
+function speakIcon(){
+  return '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>';
+}
+function speakBtn(text, label, extraClass=''){
+  if(!speechOK) return '';
+  return `<button type="button" class="speak ${extraClass}" data-speak="${escAttr(text)}" aria-label="${escAttr(label||('Pronounce '+text))}">${speakIcon()}</button>`;
+}
+function escAttr(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function bindSpeak(root){
+  if(!speechOK) return;
+  (root||document).querySelectorAll('[data-speak]').forEach(b=>{
+    b.onclick=e=>{e.preventDefault();e.stopPropagation();speak(b.getAttribute('data-speak'),b);};
+  });
+}
+function maybeAutoPlay(text){
+  if(!speechOK||!speechPrefs.autoPlay||!text) return;
+  // Slight delay so layout settles; still usually counts as continuing from mode-start tap on many browsers
+  setTimeout(()=>speak(text),80);
+}
+
 function fresh(){return {records:{},correct:0,total:0,score:0,streak:0,best:0};}
 function load(){try{const s=JSON.parse(localStorage.getItem(KEY));if(!s)return fresh();if(!s.records||!['correct','total','score','streak','best'].every(k=>Number.isFinite(s[k])&&s[k]>=0)||s.correct>s.total)throw Error('Invalid save');for(const [key,r] of Object.entries(s.records)){if(!words.some(w=>w.word===key)||!Number.isInteger(r.box)||r.box<1||r.box>5||!Number.isFinite(r.due))throw Error('Invalid record');}return s;}catch(e){storageOK=false;return fresh();}}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(state));storageOK=true;}catch(e){storageOK=false;}}
@@ -104,22 +335,174 @@ function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Ma
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function warning(){return storageOK?'':'<p class="save-warning" role="status">Progress could not be loaded or saved in this browser. You can still play; allow local storage to keep future progress.</p>';}
 function stats(){return `<div class="stats"><div class="stat"><strong>${mastered()}<span> / ${words.length}</span></strong><span>Words mastered · box 5</span></div><div class="stat"><strong>${due()}</strong><span>Due for review</span></div><div class="stat"><strong>${accuracy()}</strong><span>Answer accuracy</span></div><div class="stat"><strong>${state.streak}<span> in a row</span></strong><span>Current streak · best ${state.best}</span></div></div>`;}
-function home(){session=null;app.innerHTML=warning()+`<section class="intro"><div><div class="eyebrow">A little practice. A sharper vocabulary.</div><h1>Make every word<br>work for you.</h1><p>Build the language for your next case study, research paper, and big idea. Ten words at a time.</p></div><aside class="note">“The right word makes<br>a clearer argument.”<small>YOUR DAILY ACADEMIC HABIT</small></aside></section>${stats()}<div class="section-head"><h2>Find your focus</h2><small>${words.length} words · ${state.score.toLocaleString()} total points</small></div><section class="modes" aria-label="Choose a practice mode"><button class="mode featured" data-mode="quiz"><span class="icon" aria-hidden="true">Aa</span><h3>Define it</h3><p>One word, four meanings.<br>Find the definition that fits.</p><span class="start">Multiple choice · 10 words <span aria-hidden="true">↗</span></span></button><button class="mode" data-mode="match"><span class="icon" aria-hidden="true">⇄</span><h3>Make a match</h3><p>Connect words with their definitions.<br>Build the associations that stick.</p><span class="start">Pair matching · 5 pairs <span aria-hidden="true">↗</span></span></button><button class="mode" data-mode="fill"><span class="icon" aria-hidden="true">_</span><h3>In context</h3><p>Complete a sentence from the world<br>of business and academic writing.</p><span class="start">Fill in the blank · 10 words <span aria-hidden="true">↗</span></span></button></section><section class="practice-info"><div class="panel"><h3>A memory system that works with you</h3><p>Correct answers move a word up one box; mistakes return it to box 1. Reviews are scheduled after 1, 3, 7, then 14 days. Due words come first, followed by extra practice.</p><div class="boxes">${[1,2,3,4,5].map(b=>`<div class="box"><strong>${words.filter(w=>rec(w).box===b).length}</strong><span>BOX ${b}</span></div>`).join('')}</div></div><div class="panel"><h3>Built for your next chapter</h3><p>Useful vocabulary for strategy, finance, research, and persuasive writing. Every answer includes a definition and an example in context.</p><p style="margin-top:12px">Your progress stays in this browser. No account, no connection, just a few focused minutes.</p></div></section>`;app.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>start(b.dataset.mode));}
-function start(mode){const now=Date.now();const ready=shuffle(words.filter(w=>rec(w).due<=now)).sort((a,b)=>rec(a).box-rec(b).box);const later=shuffle(words.filter(w=>rec(w).due>now)).sort((a,b)=>rec(a).due-rec(b).due);session={mode,queue:[...ready,...later].slice(0,mode==='match'?5:10),index:0,correct:0,total:0,points:0,answered:false,graded:new Set(),matched:new Set(),left:null,right:null};if(mode==='match'){session.rightOrder=shuffle(session.queue);renderMatch();}else renderQuestion();}
-function sessionChrome(title){const done=session.mode==='match'?session.matched.size:session.index;return `<div class="game-top"><button class="link" id="back">← All modes</button><span class="game-meta"><span>${title}</span><span>${done} / ${session.queue.length}</span><span id="live-score">${state.score} pts · ${state.streak} streak</span></span></div><div class="track" aria-label="Session progress" role="progressbar" aria-valuenow="${done}" aria-valuemin="0" aria-valuemax="${session.queue.length}"><div style="width:${done/session.queue.length*100}%"></div></div>`;}
-function bindBack(){document.getElementById('back').onclick=home;}
-function grade(w,ok){let r=rec(w);const box=ok?Math.min(5,r.box+1):1;state.records[w.word]={box,due:Date.now()+intervals[box-1]};state.total++;session.total++;if(ok){state.correct++;session.correct++;state.streak++;const points=10+Math.min(10,Math.floor(state.streak/3)*2);state.score+=points;session.points+=points;state.best=Math.max(state.best,state.streak);}else state.streak=0;save();const live=document.getElementById('live-score');if(live)live.textContent=state.score+' pts · '+state.streak+' streak';return box;}
-function feedback(w,ok,box,extra=''){return `<div class="feedback ${ok?'':'bad'}" role="status"><strong>${ok?'Correct. Nicely done.':`The answer is ${esc(w.word)}.`}</strong><p><b>${esc(w.word)}</b> <i>(${w.pos})</i> · ${esc(w.definition)}</p><p class="example">${esc(w.example)}</p>${box?`<small>${ok?'Moved to':'Returned to'} box ${box} · ${ok?'Next review in '+(intervals[box-1]/86400000)+' days':'Due again now'}${extra}</small>`:''}</div>`;}
-function renderQuestion(){const s=session,w=s.queue[s.index];s.answered=false;s.current=w;let content;if(s.mode==='quiz'){s.options=shuffle([w,...shuffle(words.filter(x=>x!==w)).slice(0,3)]);content=`<h1>${w.word}</h1><p class="pos">${w.pos}</p><p class="prompt">Choose the correct definition.</p><div class="options">${s.options.map((x,i)=>`<button class="option" data-answer="${i}"><span class="letter">${'ABCD'[i]}</span><span>${esc(x.definition)}</span></button>`).join('')}</div>`;}else{const rx=new RegExp('\\b'+w.word+'\\b','i');content=`<h2>Find the missing word.</h2><p class="sentence">${esc(w.example).replace(rx,'<span class="blank">______</span>')}</p><form id="fill-form"><label for="answer" class="sr-only">Missing word</label><input type="text" id="answer" placeholder="Type the missing word…" autocomplete="off" autocapitalize="none" spellcheck="false" required><p class="hint">Hint: ${w.pos} · ${esc(w.definition)}</p><div class="actions"><button class="btn secondary" type="button" id="reveal">Reveal answer</button><button class="btn" type="submit">Check answer →</button></div></form>`;}
-app.innerHTML=`<section class="game">${warning()}${sessionChrome(s.mode==='quiz'?'Define it':'In context')}<div class="question"><div class="eyebrow">Word ${s.index+1} of ${s.queue.length} · Box ${rec(w).box}</div>${content}<div id="result"></div></div></section>`;bindBack();if(s.mode==='quiz')app.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>answer(s.options[+b.dataset.answer]===w,+b.dataset.answer));else{document.getElementById('fill-form').onsubmit=e=>{e.preventDefault();const value=document.getElementById('answer').value.trim();if(value)answer(value.toLowerCase()===w.word);};document.getElementById('reveal').onclick=()=>answer(false);document.getElementById('answer').focus();}}
-function answer(ok,choice){const s=session;if(!s||s.answered)return;s.answered=true;const w=s.current,box=grade(w,ok);app.querySelectorAll('[data-answer]').forEach(b=>{b.disabled=true;const i=+b.dataset.answer;if(s.options[i]===w)b.classList.add('correct');else if(i===choice)b.classList.add('wrong');});if(s.mode==='fill')app.querySelectorAll('input,form button').forEach(el=>el.disabled=true);document.getElementById('result').innerHTML=feedback(w,ok,box)+`<div class="actions"><button class="btn" id="next">${s.index+1===s.queue.length?'View session results':'Next word →'}</button></div>`;document.getElementById('next').onclick=()=>{s.index++;if(s.index===s.queue.length)summary();else renderQuestion();};document.getElementById('next').focus();}
-function renderMatch(){const s=session;app.innerHTML=`<section class="game">${warning()}${sessionChrome('Make a match')}<div class="question"><div class="eyebrow">Connect the meaning</div><h2 style="margin-top:12px">Five words. Five connections.</h2><p class="prompt">Select a word and its definition, in either order. Each word’s first attempt updates its review box.</p><div class="match-grid"><div class="match-col" aria-label="Words">${s.queue.map(w=>matchButton(w,'left')).join('')}</div><div class="match-col" aria-label="Definitions">${s.rightOrder.map(w=>matchButton(w,'right')).join('')}</div></div><div id="result"></div></div></section>`;bindBack();app.querySelectorAll('[data-side]').forEach(b=>b.onclick=()=>selectMatch(b.dataset.side,b.dataset.word));}
-function matchButton(w,side){const matched=session.matched.has(w.word);return `<button class="match-card ${side==='left'?'word':''} ${matched?'correct':''}" data-side="${side}" data-word="${w.word}" ${matched?'disabled':''} aria-pressed="false">${matched?'✓ ':''}${esc(side==='left'?w.word:w.definition)}</button>`;}
-function selectMatch(side,word){const s=session;s[side]=s[side]===word?null:word;app.querySelectorAll('[data-side]').forEach(b=>{b.classList.remove('wrong');const chosen=s[b.dataset.side]===b.dataset.word;b.classList.toggle('selected',chosen);b.setAttribute('aria-pressed',String(chosen));});if(!s.left||!s.right)return;const w=s.queue.find(x=>x.word===s.left),ok=s.left===s.right;let box=null;if(!s.graded.has(w.word)){box=grade(w,ok);s.graded.add(w.word);}if(ok){s.matched.add(w.word);renderMatch();document.getElementById('result').innerHTML=feedback(w,true,box);if(s.matched.size===s.queue.length){document.getElementById('result').innerHTML+='<div class="actions"><button class="btn" id="finish">View session results</button></div>';document.getElementById('finish').onclick=summary;document.getElementById('finish').focus();}}else{app.querySelectorAll('.selected').forEach(b=>{b.classList.add('wrong');b.classList.remove('selected');b.setAttribute('aria-pressed','false');});document.getElementById('result').innerHTML=feedback(w,false,box)+(box?'':'<p class="hint">Keep trying. This word’s first attempt has already been recorded.</p>');}s.left=null;s.right=null;}
-function summary(){const s=session;app.innerHTML=`<section class="game summary"><div class="eyebrow">Session complete</div><h1>A little sharper<br>than before.</h1><p style="color:var(--muted)">${s.mode==='match'?'All five connections made. Accuracy reflects your first attempt for each word.':'Every review is another step toward making these words your own.'}</p><div class="stats"><div class="stat"><strong>${s.correct}/${s.total}</strong><span>Correct answers</span></div><div class="stat"><strong>+${s.points}</strong><span>Points earned</span></div><div class="stat"><strong>${state.streak}</strong><span>Current streak</span></div><div class="stat"><strong>${mastered()}</strong><span>Words mastered</span></div></div>${warning()}<div class="actions"><button class="btn secondary" id="home">Back to home</button><button class="btn" id="again">Practice again →</button></div></section>`;document.getElementById('home').onclick=home;document.getElementById('again').onclick=()=>start(s.mode);document.getElementById('again').focus();}
-document.getElementById('brand').onclick=home;
-const dialog=document.getElementById('reset-dialog');document.getElementById('reset').onclick=()=>dialog.showModal();document.getElementById('cancel-reset').onclick=()=>dialog.close();document.getElementById('confirm-reset').onclick=()=>{state=fresh();save();dialog.close();home();};
+
+function settingsPanel(){
+  if(!speechOK) return `<section class="settings"><h3>Pronunciation</h3><p>This browser cannot speak words aloud. Speaker buttons are hidden.</p></section>`;
+  const avail=availableAccents();
+  const labels={british:'British',australian:'Australian / NZ',american:'American'};
+  if(!avail.includes(speechPrefs.accent)) speechPrefs.accent=avail[0];
+  return `<section class="settings" aria-label="Pronunciation settings"><h3>Pronunciation</h3><p>Uses your iPhone’s built-in English voices. Works offline after voices are installed.</p><div class="settings-grid"><div class="field"><label for="accent-select">Accent</label><select id="accent-select">${avail.map(a=>`<option value="${a}" ${a===speechPrefs.accent?'selected':''}>${labels[a]}</option>`).join('')}</select></div><div class="field"><label for="rate-select">Speed</label><select id="rate-select"><option value="0.75" ${speechPrefs.rate===0.75?'selected':''}>Slow</option><option value="0.9" ${speechPrefs.rate===0.9?'selected':''}>Normal</option></select></div><div class="field"><label for="autoplay-toggle">Auto-play word</label><div class="toggle-row"><span>Speak each new word</span><input type="checkbox" id="autoplay-toggle" ${speechPrefs.autoPlay?'checked':''}></div></div></div><p class="settings-note">Tip: for clearer voices on iPhone, go to Settings → Accessibility → Spoken Content → Voices, and download an Enhanced English voice.</p></section>`;
+}
+function bindSettings(){
+  if(!speechOK) return;
+  const accent=document.getElementById('accent-select');
+  const rate=document.getElementById('rate-select');
+  const auto=document.getElementById('autoplay-toggle');
+  if(accent) accent.onchange=()=>{speechPrefs.accent=accent.value;saveSpeech();};
+  if(rate) rate.onchange=()=>{speechPrefs.rate=parseFloat(rate.value);saveSpeech();};
+  if(auto) auto.onchange=()=>{speechPrefs.autoPlay=auto.checked;saveSpeech();};
+  updateAccentOptions();
+}
+
+function modeTitle(mode){return {quiz:'Define it',match:'Make a match',fill:'In context',listen:'Listen'}[mode]||mode;}
+
+function home(){
+  stopSpeak();
+  session=null;
+  app.innerHTML=warning()+`<section class="intro"><div><div class="eyebrow">A little practice. A sharper vocabulary.</div><h1>Make every word<br>work for you.</h1><p>Build the language for your next case study, research paper, and big idea. Ten words at a time.</p></div><aside class="note">“The right word makes<br>a clearer argument.”<small>YOUR DAILY ACADEMIC HABIT</small></aside></section>${stats()}<div class="section-head"><h2>Find your focus</h2><small>${words.length} words · ${state.score.toLocaleString()} total points</small></div><section class="modes" aria-label="Choose a practice mode"><button class="mode featured" data-mode="quiz"><span class="icon" aria-hidden="true">Aa</span><h3>Define it</h3><p>One word, four meanings.<br>Find the definition that fits.</p><span class="start">Multiple choice · 10 words <span aria-hidden="true">↗</span></span></button><button class="mode" data-mode="listen"><span class="icon" aria-hidden="true">♪</span><h3>Listen</h3><p>Hear the word first, then<br>choose the right definition.</p><span class="start">Audio · 10 words <span aria-hidden="true">↗</span></span></button><button class="mode" data-mode="match"><span class="icon" aria-hidden="true">⇄</span><h3>Make a match</h3><p>Connect words with their definitions.<br>Build the associations that stick.</p><span class="start">Pair matching · 5 pairs <span aria-hidden="true">↗</span></span></button><button class="mode" data-mode="fill"><span class="icon" aria-hidden="true">_</span><h3>In context</h3><p>Complete a sentence from the world<br>of business and academic writing.</p><span class="start">Fill in the blank · 10 words <span aria-hidden="true">↗</span></span></button></section>${settingsPanel()}<section class="practice-info"><div class="panel"><h3>A memory system that works with you</h3><p>Correct answers move a word up one box; mistakes return it to box 1. Reviews are scheduled after 1, 3, 7, then 14 days. Due words come first, followed by extra practice.</p><div class="boxes">${[1,2,3,4,5].map(b=>`<div class="box"><strong>${words.filter(w=>rec(w).box===b).length}</strong><span>BOX ${b}</span></div>`).join('')}</div></div><div class="panel"><h3>Built for your next chapter</h3><p>Useful vocabulary for strategy, finance, research, and persuasive writing. Every answer includes a definition and an example in context.</p><p style="margin-top:12px">Your progress stays in this browser. No account, no connection, just a few focused minutes.</p></div></section>`;
+  app.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>start(b.dataset.mode));
+  bindSettings();
+}
+
+function start(mode){
+  stopSpeak();
+  const now=Date.now();
+  const ready=shuffle(words.filter(w=>rec(w).due<=now)).sort((a,b)=>rec(a).box-rec(b).box);
+  const later=shuffle(words.filter(w=>rec(w).due>now)).sort((a,b)=>rec(a).due-rec(b).due);
+  session={mode,queue:[...ready,...later].slice(0,mode==='match'?5:10),index:0,correct:0,total:0,points:0,answered:false,graded:new Set(),matched:new Set(),left:null,right:null};
+  if(mode==='match'){session.rightOrder=shuffle(session.queue);renderMatch();}
+  else renderQuestion();
+}
+
+function sessionChrome(title){
+  const done=session.mode==='match'?session.matched.size:session.index;
+  return `<div class="game-top"><button class="link" id="back">← All modes</button><span class="game-meta"><span>${title}</span><span>${done} / ${session.queue.length}</span><span id="live-score">${state.score} pts · ${state.streak} streak</span></span></div><div class="track" aria-label="Session progress" role="progressbar" aria-valuenow="${done}" aria-valuemin="0" aria-valuemax="${session.queue.length}"><div style="width:${done/session.queue.length*100}%"></div></div>`;
+}
+function bindBack(){document.getElementById('back').onclick=()=>{stopSpeak();home();};}
+
+function grade(w,ok){
+  let r=rec(w);const box=ok?Math.min(5,r.box+1):1;
+  state.records[w.word]={box,due:Date.now()+intervals[box-1]};
+  state.total++;session.total++;
+  if(ok){state.correct++;session.correct++;state.streak++;const points=10+Math.min(10,Math.floor(state.streak/3)*2);state.score+=points;session.points+=points;state.best=Math.max(state.best,state.streak);}
+  else state.streak=0;
+  save();
+  const live=document.getElementById('live-score');
+  if(live)live.textContent=state.score+' pts · '+state.streak+' streak';
+  return box;
+}
+
+function feedback(w,ok,box,extra=''){
+  const speakWord=speakBtn(w.word,'Pronounce '+w.word);
+  const speakEx=speakBtn(w.example,'Pronounce example sentence');
+  return `<div class="feedback ${ok?'':'bad'}" role="status"><strong>${ok?'Correct. Nicely done.':`The answer is ${esc(w.word)}.`}</strong><p><b>${esc(w.word)}</b> ${speakWord} <i>(${w.pos})</i> · ${esc(w.definition)}</p><p class="example"><span>${esc(w.example)}</span>${speakEx}</p>${box?`<small>${ok?'Moved to':'Returned to'} box ${box} · ${ok?'Next review in '+(intervals[box-1]/86400000)+' days':'Due again now'}${extra}</small>`:''}</div>`;
+}
+
+function renderQuestion(){
+  const s=session,w=s.queue[s.index];
+  s.answered=false;s.current=w;
+  let content;
+  if(s.mode==='quiz'){
+    s.options=shuffle([w,...shuffle(words.filter(x=>x!==w)).slice(0,3)]);
+    content=`<div class="word-row"><h1>${esc(w.word)}</h1>${speakBtn(w.word,'Pronounce '+w.word)}</div><p class="pos">${w.pos}</p><p class="prompt">Choose the correct definition.</p><div class="options">${s.options.map((x,i)=>`<button class="option" data-answer="${i}"><span class="letter">${'ABCD'[i]}</span><span>${esc(x.definition)}</span></button>`).join('')}</div>`;
+  }else if(s.mode==='listen'){
+    s.options=shuffle([w,...shuffle(words.filter(x=>x!==w)).slice(0,3)]);
+    content=`<div class="listen-card"><button type="button" class="speak big-speak" data-speak="${escAttr(w.word)}" aria-label="Play word">${speakIcon()}</button><div><div class="eyebrow">Tap to hear the word</div><h2 style="margin-top:6px">Which definition matches?</h2></div></div><p class="prompt">Listen carefully, then choose the meaning.</p><div class="options">${s.options.map((x,i)=>`<button class="option" data-answer="${i}"><span class="letter">${'ABCD'[i]}</span><span>${esc(x.definition)}</span></button>`).join('')}</div>`;
+  }else{
+    const rx=new RegExp('\\b'+w.word+'\\b','i');
+    content=`<h2>Find the missing word.</h2><p class="sentence">${esc(w.example).replace(rx,'<span class="blank">______</span>')}</p><form id="fill-form"><label for="answer" class="sr-only">Missing word</label><input type="text" id="answer" placeholder="Type the missing word…" autocomplete="off" autocapitalize="none" spellcheck="false" required><p class="hint">Hint: ${w.pos} · ${esc(w.definition)}</p><div class="actions"><button class="btn secondary" type="button" id="reveal">Reveal answer</button><button class="btn" type="submit">Check answer →</button></div></form>`;
+  }
+  app.innerHTML=`<section class="game">${warning()}${sessionChrome(modeTitle(s.mode))}<div class="question"><div class="eyebrow">Word ${s.index+1} of ${s.queue.length} · Box ${rec(w).box}</div>${content}<div id="result"></div></div></section>`;
+  bindBack();
+  bindSpeak(app);
+  if(s.mode==='quiz'||s.mode==='listen'){
+    app.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>answer(s.options[+b.dataset.answer]===w,+b.dataset.answer));
+    if(s.mode==='quiz') maybeAutoPlay(w.word);
+    if(s.mode==='listen'){
+      // Play once from the mode-start / next tap chain when autoplay on, else wait for the big button
+      if(speechPrefs.autoPlay) maybeAutoPlay(w.word);
+    }
+  }else{
+    document.getElementById('fill-form').onsubmit=e=>{e.preventDefault();const value=document.getElementById('answer').value.trim();if(value)answer(value.toLowerCase()===w.word);};
+    document.getElementById('reveal').onclick=()=>answer(false);
+    document.getElementById('answer').focus();
+  }
+}
+
+function answer(ok,choice){
+  const s=session;if(!s||s.answered)return;s.answered=true;
+  const w=s.current,box=grade(w,ok);
+  app.querySelectorAll('[data-answer]').forEach(b=>{b.disabled=true;const i=+b.dataset.answer;if(s.options[i]===w)b.classList.add('correct');else if(i===choice)b.classList.add('wrong');});
+  if(s.mode==='fill')app.querySelectorAll('input,form button').forEach(el=>el.disabled=true);
+  // In listen mode, reveal the word with a speaker after answering
+  let extraReveal='';
+  if(s.mode==='listen'){
+    extraReveal=`<div class="word-row" style="margin-top:16px"><h1 style="font-size:36px">${esc(w.word)}</h1>${speakBtn(w.word,'Pronounce '+w.word)}</div><p class="pos">${w.pos}</p>`;
+  }
+  document.getElementById('result').innerHTML=extraReveal+feedback(w,ok,box)+`<div class="actions"><button class="btn" id="next">${s.index+1===s.queue.length?'View session results':'Next word →'}</button></div>`;
+  bindSpeak(document.getElementById('result'));
+  document.getElementById('next').onclick=()=>{stopSpeak();s.index++;if(s.index===s.queue.length)summary();else renderQuestion();};
+  document.getElementById('next').focus();
+}
+
+function renderMatch(){
+  const s=session;
+  app.innerHTML=`<section class="game">${warning()}${sessionChrome('Make a match')}<div class="question"><div class="eyebrow">Connect the meaning</div><h2 style="margin-top:12px">Five words. Five connections.</h2><p class="prompt">Select a word and its definition, in either order. Each word’s first attempt updates its review box.</p><div class="match-grid"><div class="match-col" aria-label="Words">${s.queue.map(w=>matchButton(w,'left')).join('')}</div><div class="match-col" aria-label="Definitions">${s.rightOrder.map(w=>matchButton(w,'right')).join('')}</div></div><div id="result"></div></div></section>`;
+  bindBack();
+  app.querySelectorAll('[data-side]').forEach(b=>b.onclick=()=>selectMatch(b.dataset.side,b.dataset.word));
+  // Speak buttons on match cards should not select the card
+  bindSpeak(app);
+}
+
+function matchButton(w,side){
+  const matched=session.matched.has(w.word);
+  if(side==='left'){
+    const speak=speechOK?`<button type="button" class="speak" data-speak="${escAttr(w.word)}" aria-label="Pronounce ${escAttr(w.word)}">${speakIcon()}</button>`:'';
+    return `<div class="match-word-inner" style="display:flex;gap:8px;align-items:stretch"><button class="match-card word ${matched?'correct':''}" data-side="${side}" data-word="${w.word}" ${matched?'disabled':''} aria-pressed="false" style="flex:1">${matched?'✓ ':''}${esc(w.word)}</button>${speak}</div>`;
+  }
+  return `<button class="match-card ${matched?'correct':''}" data-side="${side}" data-word="${w.word}" ${matched?'disabled':''} aria-pressed="false">${matched?'✓ ':''}${esc(w.definition)}</button>`;
+}
+
+function selectMatch(side,word){
+  // Ignore if click originated from speak button handled separately
+  const s=session;s[side]=s[side]===word?null:word;
+  app.querySelectorAll('[data-side]').forEach(b=>{b.classList.remove('wrong');const chosen=s[b.dataset.side]===b.dataset.word;b.classList.toggle('selected',chosen);b.setAttribute('aria-pressed',String(chosen));});
+  if(!s.left||!s.right)return;
+  const w=s.queue.find(x=>x.word===s.left),ok=s.left===s.right;let box=null;
+  if(!s.graded.has(w.word)){box=grade(w,ok);s.graded.add(w.word);}
+  if(ok){
+    s.matched.add(w.word);renderMatch();
+    document.getElementById('result').innerHTML=feedback(w,true,box);
+    bindSpeak(document.getElementById('result'));
+    if(s.matched.size===s.queue.length){
+      document.getElementById('result').innerHTML+='<div class="actions"><button class="btn" id="finish">View session results</button></div>';
+      document.getElementById('finish').onclick=()=>{stopSpeak();summary();};
+      document.getElementById('finish').focus();
+    }
+  }else{
+    app.querySelectorAll('.selected').forEach(b=>{b.classList.add('wrong');b.classList.remove('selected');b.setAttribute('aria-pressed','false');});
+    document.getElementById('result').innerHTML=feedback(w,false,box)+(box?'':'<p class="hint">Keep trying. This word’s first attempt has already been recorded.</p>');
+    bindSpeak(document.getElementById('result'));
+  }
+  s.left=null;s.right=null;
+}
+
+function summary(){
+  stopSpeak();
+  const s=session;
+  app.innerHTML=`<section class="game summary"><div class="eyebrow">Session complete</div><h1>A little sharper<br>than before.</h1><p style="color:var(--muted)">${s.mode==='match'?'All five connections made. Accuracy reflects your first attempt for each word.':'Every review is another step toward making these words your own.'}</p><div class="stats"><div class="stat"><strong>${s.correct}/${s.total}</strong><span>Correct answers</span></div><div class="stat"><strong>+${s.points}</strong><span>Points earned</span></div><div class="stat"><strong>${state.streak}</strong><span>Current streak</span></div><div class="stat"><strong>${mastered()}</strong><span>Words mastered</span></div></div>${warning()}<div class="actions"><button class="btn secondary" id="home">Back to home</button><button class="btn" id="again">Practice again →</button></div></section>`;
+  document.getElementById('home').onclick=home;
+  document.getElementById('again').onclick=()=>start(s.mode);
+  document.getElementById('again').focus();
+}
+
+document.getElementById('brand').onclick=()=>{stopSpeak();home();};
+const dialog=document.getElementById('reset-dialog');
+document.getElementById('reset').onclick=()=>dialog.showModal();
+document.getElementById('cancel-reset').onclick=()=>dialog.close();
+document.getElementById('confirm-reset').onclick=()=>{state=fresh();save();dialog.close();home();};
 home();
+
 </script>
 <script>if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js')</script></body>
 </html>
